@@ -19,7 +19,7 @@ total_biaya = komponen_1 + komponen_2 + komponen_3 + komponen_4 + komponen_5 + k
 rata_rata = total_biaya / len(harga_komponen)
 
 # 4. Variabel NIM (silakan ganti "22" dengan 2 digit terakhir NIM kamu)
-nim = 22
+nim = 73
 
 # 5. Variabel boolean mengecek apakah NIM tidak sama dengan rata-rata
 bolean = nim != rata_rata
@@ -31,7 +31,7 @@ total_biaya_gbp = total_biaya / kurs_gbp
 
 # 6. Menampilkan semua variabel ke layar
 print("--- RINCIAN BIAYA PEMBELIAN KOMPONEN ---")
-print("Daftar Harga Komponen :", harga_komponen)
+print("Daftar Harga Komponen :", harga_komponen)    
 print("Total Biaya (Rp)      :", total_biaya)
 print("Rata-rata Biaya       :", rata_rata)
 print("NIM (2 digit terakhir):", nim)
